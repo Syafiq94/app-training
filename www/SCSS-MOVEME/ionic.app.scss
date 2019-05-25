@@ -1,0 +1,17 @@
+$energized: #F3D97B;
+$stable: #f8f8f8;
+$link-color: $stable;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+body.platform-android {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.ionic-body.platform-android {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.tab-item,input,button,select,textarea {
+	font-family: inherit;
+}
+
